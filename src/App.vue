@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <h3 class="navbar-brand">
           <span>
-            <router-link to="/" class="custom-link">
+            <router-link to="/myappquran" class="custom-link">
               Al-Quran Digital</router-link>
           </span>
         </h3>
