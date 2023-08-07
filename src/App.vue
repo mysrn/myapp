@@ -1,27 +1,26 @@
 <template>
-  <div>
+  <div class="container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Al-Quran Digital</a>
+        <h3 class="navbar-brand">
+          <span>
+            <router-link to="/" class="custom-link">
+              Al-Quran Digital</router-link>
+          </span>
+        </h3>
       </div>
     </nav>
-    <AllSurat />
+    <RouterView />
   </div>
 </template>
 
 <script>
-  import AllSurat from './components/AllSurat.vue'
+  import {RouterView} from 'vue-router'
   export default{
-    components:{
-      AllSurat
-    },
     data() {
       return {
-        //
+        
       }
-    },
-    mounted() {
-      //
     },
     methods: {
       //

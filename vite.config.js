@@ -5,12 +5,12 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig(({command}) => {
   const config = {
     plugins: [vue()],
-    base: '/myapp/',
+    base: '/myappquran',
     build: {
       outDir: 'dist'
     }
   }
   if(command !== 'dev')
-    config.base = '/myapp/'
+    config.base = '/myappquran'
   return config
 })
